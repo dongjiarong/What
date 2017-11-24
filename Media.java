@@ -7,6 +7,8 @@ public class Media {
     public static void main(String[] args) throws Exception{
         MedAA medAA=new MedAA();
         while (true) {
+
+
             Scanner in = new Scanner(System.in);
             System.out.println("选择操作");
             System.out.println("a 增加内容");
