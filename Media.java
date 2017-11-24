@@ -100,9 +100,7 @@ class MedAA {
     public void output() {
         for (Med med : a) {
 
-                System.out.print(med.getName());
-                System.out.print(" " + med.getNumber());
-
+            System.out.print("<" + med.getName() + ">"+ "  ");
         }
     }
 }
